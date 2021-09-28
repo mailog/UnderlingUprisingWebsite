@@ -15,13 +15,12 @@ html,body
 
 .character
 {
-    width: 20%;
     display: inline-block;
 }
 
 #villains-container
 {
-    width: 100%;
+    width: 60%;
 }
 
 #villains-container h2
@@ -29,12 +28,22 @@ html,body
     text-align:center;
 }
 
+#villains-container .character
+{
+    width: 33%;
+}
+
 #underlings-container
 {
-    width: 100%;
+    width: 80%;
 }
 
 #underlings-container h2
 {
     text-align:center;
+}
+
+#underlings-container .character
+{
+    width:25%;
 }
