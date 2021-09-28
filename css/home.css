@@ -20,13 +20,9 @@ html,body
 
 #villains-container
 {
+    text-align:center;
     width: 60%;
 	margin: 0 auto;
-}
-
-#villains-container h2
-{
-    text-align:center;
 }
 
 #villains-container .character
@@ -36,13 +32,9 @@ html,body
 
 #underlings-container
 {
+    text-align:center;
     width: 80%;
 	margin: 0 auto;
-}
-
-#underlings-container h2
-{
-    text-align:center;
 }
 
 #underlings-container .character
