@@ -16,7 +16,6 @@ html,body
 .character
 {
     width: 20%;
-    color: red;
     display: inline-block;
 }
 
