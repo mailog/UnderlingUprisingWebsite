@@ -8,6 +8,11 @@ html,body
     overflow-x: hidden; 
 }
 
+.title
+{
+    text-align: center;    
+}
+
 .character
 {
     width: 20%;
