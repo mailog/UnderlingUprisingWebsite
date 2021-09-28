@@ -20,22 +20,22 @@ html,body
     display: inline-block;
 }
 
-.villains-container
+#villains-container
 {
     width: 100%;
 }
 
-.villains-container h2
+#villains-container h2
 {
     text-align:center;
 }
 
-.underlings-container
+#underlings-container
 {
     width: 100%;
 }
 
-.underlings-container h2
+#underlings-container h2
 {
     text-align:center;
 }
