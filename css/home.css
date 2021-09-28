@@ -13,16 +13,29 @@ html,body
     text-align: center;    
 }
 
-.underling
+.character
 {
     width: 20%;
     color: red;
     display: inline-block;
 }
 
-.villain
+.villains-container
 {
-    width: 20%;
-    color: red;
-    display: inline-block;
+    width: 100%;
+}
+
+.villains-container h2
+{
+    text-align:center;
+}
+
+.underlings-container
+{
+    width: 100%;
+}
+
+.underlings-container h2
+{
+    text-align:center;
 }
