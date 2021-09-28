@@ -1,8 +1,7 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/home.css">														
-	<title>Underling Uprising</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">	
 </head>
 
 <div class = "character">
