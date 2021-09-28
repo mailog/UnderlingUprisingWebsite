@@ -27,7 +27,7 @@ html,body
 
 #villains-container .character
 {
-    width: 33%;
+    width: 49.5%;
 }
 
 #underlings-container
@@ -40,4 +40,16 @@ html,body
 #underlings-container .character
 {
     width:24%;
+}
+
+#fodder-container
+{
+	text-align:center;
+	width: 66%;
+	margin: 0 auto;
+}
+
+#fodder-container .character
+{
+    width: 33%;
 }
