@@ -21,6 +21,7 @@ html,body
 #villains-container
 {
     width: 60%;
+	margin: 0 auto;
 }
 
 #villains-container h2
@@ -36,6 +37,7 @@ html,body
 #underlings-container
 {
     width: 80%;
+	margin: 0 auto;
 }
 
 #underlings-container h2
