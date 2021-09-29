@@ -28,6 +28,13 @@ html,body
 	margin: 0 auto;
 }
 
+#summary-container
+{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+}
+
 .video-container
 {
     position: relative;
