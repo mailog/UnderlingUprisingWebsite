@@ -17,6 +17,7 @@ html,body
 
 #header-container
 {
+	margin-top:5%;
 	width: 100%;	
 	text-align:center;
 }
