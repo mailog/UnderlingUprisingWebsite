@@ -17,8 +17,11 @@ html,body
 
 .trailer-container
 {
+	position: relative;
+	margin: 0% auto;
 	width: 50%;
-	margin: 0 auto;
+	height: 0;
+	padding-bottom: 56.25%;
 }
 
 .trailer
