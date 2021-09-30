@@ -4,19 +4,17 @@ window.onload = function()
   
   //Init Background Data
   var backgrounds = document.querySelectorAll(".background");
-  
+
   for(var bg in backgrounds)
   {
-      background.push(bg);
+    console.log("Speed " + bg.dataset.scrollSpeed");
   }
-  
-  console.Log(background.length);
   
   function updateScroll()
   {
-      console.Log("SCROLLLLLLLL!");
+      console.log("SCROLLLLLLLL!");
   }
   
-  document.AddEventListener("scroll",updateScroll);
+  document.addEventListener("scroll",updateScroll);
   updateScroll();
 }
