@@ -1,19 +1,25 @@
 window.onload = function()
 {
-  var background = [];
+	var background = [];
+
+	//Init Background Data
+	var backgrounds = document.querySelectorAll(".background");
+
+
+	function updateScroll()
+	{	
+		var currScroll = window.scrollY;
+		for(var i = 0; i < backgrounds.length; i++)
+		{
+			updateBG(currScroll, backgrounds[i]);
+		}
+	}
+	
+	function updateBG(currScroll, background)
+	{
+
+	}
   
-  //Init Background Data
-  var backgrounds = document.querySelectorAll(".background");
-	for(var i = 0; i < backgrounds.length; i++)
-  {
-	    console.log("Speed " + backgrounds[i].dataset.scrollspeed); 
-  }
-  
-  function updateScroll()
-  {
-      console.log("SCROLLLLLLLL!");
-  }
-  
-  document.addEventListener("scroll",updateScroll);
-  updateScroll();
+	document.addEventListener("scroll",updateScroll);
+	updateScroll();
 }
