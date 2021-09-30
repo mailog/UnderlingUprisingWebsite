@@ -19,6 +19,19 @@ html,body
 	padding: 20% 0;
 }
 
+.background
+{
+	position:absolute;
+	top:0;
+	left: 0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.background-1 {background-image: url("../images/BG1.png");}
+.background-2 {background-image: url("../images/BG2.png");}
+.background-3 {background-image: url("../images/BG2.png");}
+
 #header-container
 {
 	margin-top:1%;
