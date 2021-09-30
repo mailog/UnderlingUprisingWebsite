@@ -17,7 +17,7 @@ window.onload = function()
 	
 	function updateBG(currScroll, background)
 	{
-
+		console.log("Something something scroll " + background.dataset.scrollspeed;
 	}
   
 	document.addEventListener("scroll",updateScroll);
