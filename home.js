@@ -19,7 +19,7 @@ window.onload = function()
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
 		background.style.transform = "transform.3d(0," + currOffset + "px, 0)";
-		console.log("Scroll Offset " + background.dataset.scrollspeed + ": " + currOffset);
+		console.log("Window - " + currScroll + " - Scroll Offset " + background.dataset.scrollspeed + ": " + currOffset);
 	}
   
 	document.addEventListener("scroll",updateScroll);
