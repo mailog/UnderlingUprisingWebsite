@@ -3,18 +3,18 @@ window.onload = function()
   var background = [];
   
   //Init Background Data
-  var backgrounds = Document.querySelectorAll(".background");
+  var backgrounds = document.querySelectorAll(".background");
   
   for(var bg in backgrounds)
   {
       background.push(bg);
   }
   
-  Console.Log(background.length);
+  console.Log(background.length);
   
   function updateScroll()
   {
-      Console.Log("SCROLLLLLLLL!");
+      console.Log("SCROLLLLLLLL!");
   }
   
   document.AddEventListener("scroll",updateScroll);
