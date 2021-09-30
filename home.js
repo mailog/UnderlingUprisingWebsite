@@ -22,5 +22,5 @@ window.onload = function()
 		console.log(Date.now() + " Window - " + currScroll + " - Scroll Offset " + background.dataset.scrollspeed + ": " + currOffset);
 	}
   
-	document.addEventListener("scroll",updateScroll);
+	window.addEventListener("scroll",updateScroll);
 }
