@@ -23,5 +23,4 @@ window.onload = function()
 	}
   
 	document.addEventListener("scroll",updateScroll);
-	updateScroll();
 }
