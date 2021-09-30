@@ -2,6 +2,8 @@ window.onload = function()
 {
 	var background = [];
 
+	var docHeight = document.body.scrollHeight;
+
 	//Init Background Data
 	var backgrounds = document.querySelectorAll(".background");
 
@@ -18,9 +20,12 @@ window.onload = function()
 	function updateBG(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
-		background.style.top = currOffset;
-		background.style.bottom = -currOffset;
+		if (currOffset < docHeight / 4)
+		{
+			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
+        }
 	}
   
-	window.addEventListener("scroll",updateScroll);
+	document.addEventListener("scroll", updateScroll, false);
+	updateScroll();
 }
