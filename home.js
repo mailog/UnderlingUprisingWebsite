@@ -18,7 +18,7 @@ window.onload = function()
 	function updateBG(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
-		background.style.top = "transform.3d(0," + currOffset + "px, 0)";
+		background.style.top = currOffset;
 		console.log(Date.now() + " Window - " + currScroll + " - Scroll Offset " + background.dataset.scrollspeed + ": " + currOffset);
 	}
   
