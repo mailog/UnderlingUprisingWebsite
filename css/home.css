@@ -86,6 +86,12 @@ html,body
     display: inline-block;
 }
 
+.character .stats
+{
+	width: 80%;
+	height: auto;
+}
+
 #villains-container
 {
 	background-color: #FFA200;
