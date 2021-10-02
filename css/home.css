@@ -81,6 +81,11 @@ html,body
     margin: 0 auto;
 }
 
+.character-container
+{
+	padding: 5% 1%;	
+}
+
 .character
 {
     display: inline-block;
@@ -94,7 +99,6 @@ html,body
 
 #villains-container
 {
-	padding: 0 1%;
 	background-color: #FFA200;
     text-align:center;
     width: 60%;
@@ -108,7 +112,6 @@ html,body
 
 #underlings-container
 {
-	padding: 0 1%;
 background-color: #01458E;
     text-align:center;
     width: 80%;
@@ -122,7 +125,6 @@ background-color: #01458E;
 
 #fodder-container
 {
-	padding: 0 1%;
 background-color: #C83A01;
 	text-align:center;
 	width: 66%;
