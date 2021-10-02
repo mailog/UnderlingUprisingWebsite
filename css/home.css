@@ -99,7 +99,6 @@ html,body
 
 #villains-container
 {
-	background-color: #FFA200;
     text-align:center;
     width: 60%;
 	margin: 0 auto;
@@ -112,7 +111,6 @@ html,body
 
 #underlings-container
 {
-background-color: #01458E;
     text-align:center;
     width: 80%;
 	margin: 0 auto;
@@ -125,7 +123,6 @@ background-color: #01458E;
 
 #fodder-container
 {
-background-color: #C83A01;
 	text-align:center;
 	width: 66%;
 	margin: 0 auto;
