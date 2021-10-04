@@ -9,7 +9,7 @@ window.onload = function()
 	angelcard = document.getElementById('angelcard');
 	deckstercard = document.getElementById('deckstercard');
 	boogiecard = document.getElementById('boogiecard');
-
+	showrose();
 	var background = [];
 
 	var docHeight = document.body.scrollHeight;
