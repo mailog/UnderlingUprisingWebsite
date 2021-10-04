@@ -120,12 +120,6 @@ html,body
 .character-card
 {
 	color:#FFFFFF;
-	visibility: hidden;	
-}
-
-#rosecard
-{
-	display: none;	
 }
 
 .stats
