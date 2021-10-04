@@ -2,6 +2,10 @@ var rosecard;
 var angelcard;
 var deckstercard;
 var boogiecard;
+var roseselect;
+var angelselect;
+var decksterselect;
+var boogieselect;
 
 window.onload = function()
 {
@@ -9,6 +13,12 @@ window.onload = function()
 	angelcard = document.getElementById('angelcard');
 	deckstercard = document.getElementById('deckstercard');
 	boogiecard = document.getElementById('boogiecard');
+	
+	roseselect = document.getElementById('roseselect');
+	angelselect = document.getElementById('angelselect');
+	decksterselect = document.getElementById('decksterselect');
+	boogieselect = document.getElementById('boogieselect');
+	
 	showrose();
 	var background = [];
 
@@ -46,7 +56,11 @@ function showrose()
 	angelcard.style.display = "none";
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
-	console.log('rose');
+	
+	roseselect.style.opacity = 1;
+	angelselect.style.opacity = 0.75;
+	decksterselect.style.opacity = 0.75;
+	boogiecard.style.opacity = 0.75;
 }
 function showangel()
 {
@@ -54,7 +68,11 @@ function showangel()
 	angelcard.style.display = "block";
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
-	console.log('angel');
+	
+	roseselect.style.opacity = 0.75;
+	angelselect.style.opacity = 1;
+	decksterselect.style.opacity = 0.75;
+	boogiecard.style.opacity = 0.75;
 }
 function showdeckster()
 {
@@ -62,7 +80,11 @@ function showdeckster()
 	angelcard.style.display = "none";
 	deckstercard.style.display = "block";
 	boogiecard.style.display = "none";
-	console.log('deckster');
+	
+	roseselect.style.opacity = 0.75;
+	angelselect.style.opacity = 0.75;
+	decksterselect.style.opacity = 1;
+	boogiecard.style.opacity = 0.75;
 }
 function showboogie()
 {
@@ -70,5 +92,9 @@ function showboogie()
 	angelcard.style.display = "none";
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "block";
-	console.log('boogie');
+	
+	roseselect.style.opacity = 0.75;
+	angelselect.style.opacity = 0.75;
+	decksterselect.style.opacity = 0.75;
+	boogiecard.style.opacity = 1;
 }
