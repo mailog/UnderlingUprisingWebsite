@@ -29,3 +29,9 @@ window.onload = function()
 	document.addEventListener("scroll", updateScroll, false);
 	updateScroll();
 }
+
+invoke = (event) => {
+    let nameOfFunction = this[event.target.name];
+    let arg1 = event.target.getAttribute('data-arg1');
+	console.log(arg1);	
+}
