@@ -124,11 +124,19 @@ html,body
 	display:none;
 }
 
+.text-container
+{
+	width: 60%;
+	height:100%;
+	display: inline-block;
+}
+
 .stats
 {
 	width: 25%;
 	height: auto;
 	margin-left:70%;
+	display:inline-block;
 } 
 
 button {
