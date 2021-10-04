@@ -1,10 +1,15 @@
-var rosecard = document.getElementById('rosecard');
-var angelcard = document.getElementById('angelcard');
-var deckstercard = document.getElementById('deckstercard');
-var boogiecard = document.getElementById('boogiecard');
+var rosecard;
+var angelcard;
+var deckstercard;
+var boogiecard;
 
 window.onload = function()
 {
+	rosecard = document.getElementById('rosecard');
+	angelcard = document.getElementById('angelcard');
+	deckstercard = document.getElementById('deckstercard');
+	boogiecard = document.getElementById('boogiecard');
+
 	var background = [];
 
 	var docHeight = document.body.scrollHeight;
