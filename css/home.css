@@ -19,23 +19,18 @@ html,body
 	background-color: #000000;
 }
 
-.title
-{
-	z-index: 1;	
-}
-
 .title img
 {
 	z-index: 1;	
 	width: 50%;
 	height: auto;
 	margin: 25%;
+	position:relative;
 }
 
 
 .background
 {
-	z-index: 0;
 	position:absolute;
 	top:0;
 	left: 0;
