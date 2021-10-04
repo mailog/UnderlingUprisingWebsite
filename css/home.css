@@ -120,6 +120,7 @@ html,body
 .character-card
 {
 	color:#FFFFFF;
+	display:none;
 }
 
 .stats
