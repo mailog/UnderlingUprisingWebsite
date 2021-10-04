@@ -26,6 +26,7 @@ html,body
 
 .title img
 {
+	z-index: 1;	
 	width: 50%;
 	height: auto;
 	margin: 25%;
