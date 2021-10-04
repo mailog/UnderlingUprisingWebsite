@@ -47,6 +47,7 @@ html,body
 
 #header-container
 {
+	position:relative;
 	margin-top:1%;
 	width: 100%;	
 	text-align:center;
