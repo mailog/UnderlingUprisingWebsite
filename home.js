@@ -30,8 +30,19 @@ window.onload = function()
 	updateScroll();
 }
 
-invoke = (event) => {
-    let nameOfFunction = this[event.target.name];
-    let arg1 = event.target.getAttribute('data-arg1');
-	console.log(arg1);	
+function showrose()
+{
+	console.log('rose');
+}
+function showangel()
+{
+	console.log('angel');
+}
+function showdeckster()
+{
+	console.log('deckster');
+}
+function showboogie()
+{
+	console.log('boogie');
 }
