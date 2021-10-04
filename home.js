@@ -1,3 +1,8 @@
+var rosecard = document.getElementById('rosecard');
+var angelcard = document.getElementById('angelcard');
+var deckstercard = document.getElementById('deckstercard');
+var boogiecard = document.getElementById('boogiecard');
+
 window.onload = function()
 {
 	var background = [];
@@ -32,17 +37,33 @@ window.onload = function()
 
 function showrose()
 {
+	rosecard.element.style.visibility = "visible";
+	angelcard.element.style.visibility = "hidden";
+	deckstercard.element.style.visibility = "hidden";
+	boogiecard.element.style.visibility = "hidden";
 	console.log('rose');
 }
 function showangel()
 {
+	rosecard.element.style.visibility = "hidden";
+	angelcard.element.style.visibility = "visible";
+	deckstercard.element.style.visibility = "hidden";
+	boogiecard.element.style.visibility = "hidden";
 	console.log('angel');
 }
 function showdeckster()
 {
+	rosecard.element.style.visibility = "hidden";
+	angelcard.element.style.visibility = "hidden";
+	deckstercard.element.style.visibility = "visible";
+	boogiecard.element.style.visibility = "hidden";
 	console.log('deckster');
 }
 function showboogie()
 {
+	rosecard.element.style.visibility = "hidden";
+	angelcard.element.style.visibility = "hidden";
+	deckstercard.element.style.visibility = "hidden";
+	boogiecard.element.style.visibility = "visible";
 	console.log('boogie');
 }
