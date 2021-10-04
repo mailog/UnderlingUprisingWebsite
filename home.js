@@ -42,33 +42,33 @@ window.onload = function()
 
 function showrose()
 {
-	rosecard.style.visibility = "visible";
-	angelcard.style.visibility = "hidden";
-	deckstercard.style.visibility = "hidden";
-	boogiecard.style.visibility = "hidden";
+	rosecard.style.display = "block";
+	angelcard.style.display = "none";
+	deckstercard.style.display = "none";
+	boogiecard.style.display = "none";
 	console.log('rose');
 }
 function showangel()
 {
-	rosecard.style.visibility = "hidden";
-	angelcard.style.visibility = "visible";
-	deckstercard.style.visibility = "hidden";
-	boogiecard.style.visibility = "hidden";
+	rosecard.style.display = "none";
+	angelcard.style.display = "block";
+	deckstercard.style.display = "none";
+	boogiecard.style.display = "none";
 	console.log('angel');
 }
 function showdeckster()
 {
-	rosecard.style.visibility = "hidden";
-	angelcard.style.visibility = "hidden";
-	deckstercard.style.visibility = "visible";
-	boogiecard.style.visibility = "hidden";
+	rosecard.style.display = "none";
+	angelcard.style.display = "none";
+	deckstercard.style.display = "block";
+	boogiecard.style.display = "none";
 	console.log('deckster');
 }
 function showboogie()
 {
-	rosecard.style.visibility = "hidden";
-	angelcard.style.visibility = "hidden";
-	deckstercard.style.visibility = "hidden";
-	boogiecard.style.visibility = "visible";
+	rosecard.style.display = "none";
+	angelcard.style.display = "none";
+	deckstercard.style.display = "none";
+	boogiecard.style.display = "block";
 	console.log('boogie');
 }
