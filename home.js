@@ -97,7 +97,7 @@ function showboogie()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "block";
 	
-	roseselect.style.opacity = unselectOpacity;
+	roseselect.style.opacity = unselectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = selectedOpacity;
