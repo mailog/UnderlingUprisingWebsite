@@ -128,14 +128,14 @@ html,body
 {
 	width: 60%;
 	display: inline-block;
+	vertical-align:top;
 }
 
 .stats
-{
-	width: 25%;
+{    
+	width: 30%;
 	height: auto;
-	margin-left:70%;
-	display:inline-block;
+	vertical-align: middle;
 } 
 
 button {
