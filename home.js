@@ -7,6 +7,9 @@ var angelselect;
 var decksterselect;
 var boogieselect;
 
+var selectedOpacity = 1;
+var unselectedOpacity = 0.5;
+
 window.onload = function()
 {
 	rosecard = document.getElementById('rosecard');
@@ -57,10 +60,10 @@ function showrose()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
 	
-	roseselect.style.opacity = 1;
-	angelselect.style.opacity = 0.75;
-	decksterselect.style.opacity = 0.75;
-	boogiecard.style.opacity = 0.75;
+	roseselect.style.opacity = selectedOpacity;
+	angelselect.style.opacity = unselectedOpacity;
+	decksterselect.style.opacity = unselectedOpacity;
+	boogiecard.style.opacity = unselectedOpacity;
 }
 function showangel()
 {
@@ -69,10 +72,10 @@ function showangel()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
 	
-	roseselect.style.opacity = 0.75;
-	angelselect.style.opacity = 1;
-	decksterselect.style.opacity = 0.75;
-	boogiecard.style.opacity = 0.75;
+	roseselect.style.opacity = unselectedOpacity;
+	angelselect.style.opacity = selectedOpacity;
+	decksterselect.style.opacity = unselectedOpacity;
+	boogiecard.style.opacity = unselectedOpacity;
 }
 function showdeckster()
 {
@@ -81,11 +84,12 @@ function showdeckster()
 	deckstercard.style.display = "block";
 	boogiecard.style.display = "none";
 	
-	roseselect.style.opacity = 0.75;
-	angelselect.style.opacity = 0.75;
-	decksterselect.style.opacity = 1;
-	boogiecard.style.opacity = 0.75;
+	roseselect.style.opacity = unselectedOpacity;
+	angelselect.style.opacity = unselectedOpacity;
+	decksterselect.style.opacity = selectedOpacity;
+	boogiecard.style.opacity = unselectedOpacity;
 }
+
 function showboogie()
 {
 	rosecard.style.display = "none";
@@ -93,8 +97,8 @@ function showboogie()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "block";
 	
-	roseselect.style.opacity = 0.75;
-	angelselect.style.opacity = 0.75;
-	decksterselect.style.opacity = 0.75;
-	boogiecard.style.opacity = 1;
+	roseselect.style.opacity = unselectOpacity;
+	angelselect.style.opacity = unselectedOpacity;
+	decksterselect.style.opacity = unselectedOpacity;
+	boogiecard.style.opacity = selectedOpacity;
 }
