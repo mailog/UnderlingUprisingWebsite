@@ -91,12 +91,6 @@ html,body
     display: inline-block;
 }
 
-.character .stats
-{
-	width: 80%;
-	height: auto;
-}
-
 #underlings-container
 {
     text-align:center;
@@ -132,6 +126,12 @@ html,body
 {
 	visibility: visible;	
 }
+
+.stats
+{
+	width: 80%;
+	height: auto;
+} 
 
 #footer-container
 {
