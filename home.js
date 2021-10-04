@@ -63,7 +63,7 @@ function showrose()
 	roseselect.style.opacity = selectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
-	boogiecard.style.opacity = unselectedOpacity;
+	boogieselect.style.opacity = unselectedOpacity;
 }
 function showangel()
 {
@@ -75,7 +75,7 @@ function showangel()
 	roseselect.style.opacity = unselectedOpacity;
 	angelselect.style.opacity = selectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
-	boogiecard.style.opacity = unselectedOpacity;
+	boogieselect.style.opacity = unselectedOpacity;
 }
 function showdeckster()
 {
@@ -87,7 +87,7 @@ function showdeckster()
 	roseselect.style.opacity = unselectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = selectedOpacity;
-	boogiecard.style.opacity = unselectedOpacity;
+	boogieselect.style.opacity = unselectedOpacity;
 }
 
 function showboogie()
@@ -100,5 +100,5 @@ function showboogie()
 	roseselect.style.opacity = unselectOpacity;
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
-	boogiecard.style.opacity = selectedOpacity;
+	boogieselect.style.opacity = selectedOpacity;
 }
