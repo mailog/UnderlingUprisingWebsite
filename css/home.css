@@ -18,11 +18,14 @@ html,body
     font-family: KGInimitableOriginal;
 }
 
-.title
+.title img
 {
-    text-align: center;    
-	padding: 20% 0;
+	vertical-align:middle;
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
 }
+
 
 .background
 {
