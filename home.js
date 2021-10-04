@@ -60,6 +60,11 @@ function showrose()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
 	
+	roseselect.src = "images/rose.gif";
+	angelselect.src = "images/angel.gif";
+	decksterselect.src = "images/deckster.gif";
+	boogieselect.src = "images/boogie.gif";
+	
 	roseselect.style.opacity = selectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
