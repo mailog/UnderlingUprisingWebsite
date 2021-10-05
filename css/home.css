@@ -57,8 +57,11 @@ html,body
 	float: right;
 }
 
-#insta:hover {content: url("images/PinkInsta.png");}
-#twitter:hover {content: url("images/PinkTwitter.png");}
+#insta {content: url("/images/OgInsta.png");}
+#twitter {content: url("/images/OgTwitter.png");}
+
+#insta:hover {content: url("/images/PinkInsta.png");}
+#twitter:hover {content: url("/images/PinkTwitter.png");}
 
 #trailer-container
 {
