@@ -17,6 +17,7 @@ html,body
     overflow-x: hidden; 
     font-family: KGInimitableOriginal;
 	background-color: #000000;
+	overflow:visible;
 }
 
 .title img
