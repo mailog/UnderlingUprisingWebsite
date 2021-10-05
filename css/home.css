@@ -30,10 +30,9 @@ html,body
 
 #kickstarter
 {
-	position:absolute;
-	top: 0;
-	left: 0;
-	width: 100%;	
+	z-index:1;
+	width:25%;
+	margin: 0 auto;
 	text-align:center;
 	margin-top:1%;
 	font-size:2vw;
