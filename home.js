@@ -50,6 +50,7 @@ window.onload = function()
 	}
   
 	document.addEventListener("scroll", updateScroll, false);
+	window.addEventListener("resize", updateScroll);
 	updateScroll();
 }
 
