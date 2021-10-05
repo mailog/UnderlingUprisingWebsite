@@ -27,17 +27,6 @@ html,body
 	margin: 25%;
 	position:relative;
 }
-
-#kickstarter
-{
-	z-index:1;
-	width:25%;
-	margin: 0 auto;
-	text-align:center;
-	margin-top:1%;
-	font-size:2vw;
-}
-
 .background
 {
 	position:absolute;
@@ -54,20 +43,31 @@ html,body
 .background-2 {background-image: url("../images/BG2.png");}
 .background-3 {background-image: url("../images/BG2.png");}
 
+
+
+#kickstarter
+{
+	z-index:1;
+	width:25%;
+	margin: 0 auto;
+	text-align:center;
+	margin-top:1%;
+	font-size:2vw;
+}
+
 #toolbar{
 	margin-top:1%;
-	position:absolute;
-	top: 0;
-	left: 0;
-	width: 100%;	
+	position:relative;
+	width: 10%;
+	float: right;	
 	text-align:center;
 }
 
 #toolbar button {
-	float: right;
-	width:4%;
+	width:45%;
 	height: auto;
 	margin: 0;
+	display:inline-block;
 }
 
 #toolbar img{
