@@ -45,10 +45,10 @@ html,body
 .background-2 {background-image: url("../images/BG2.png");}
 .background-3 {background-image: url("../images/BG2.png");}
 
-#header-container
-{
-	position:relative;
-	margin-top:1%;
+#toolbar{
+	position:absolute;
+	top: 0;
+	left: 0;
 	width: 100%;	
 	text-align:center;
 }
