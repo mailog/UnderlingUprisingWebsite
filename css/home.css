@@ -35,6 +35,8 @@ html,body
 	left: 0;
 	width: 100%;	
 	text-align:center;
+	margin-top:1%;
+	font-size:2vw;
 }
 
 .background
@@ -54,6 +56,7 @@ html,body
 .background-3 {background-image: url("../images/BG2.png");}
 
 #toolbar{
+	margin-top:1%;
 	position:absolute;
 	top: 0;
 	left: 0;
