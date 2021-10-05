@@ -55,6 +55,14 @@ html,body
 
 #toolbar button {
 	float: right;
+	width:4%;
+	height: auto;
+	margin: 0;
+}
+
+#toolbar img{
+	width: 100%;
+	height: auto;
 }
 
 #insta {content: url("/images/OgInsta.png");}
