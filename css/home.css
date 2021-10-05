@@ -53,6 +53,10 @@ html,body
 	text-align:center;
 }
 
+#toolbar .button {
+	float: right;
+}
+
 #trailer-container
 {
 	width: 80%;
