@@ -53,9 +53,12 @@ html,body
 	text-align:center;
 }
 
-#toolbar .button {
+#toolbar button {
 	float: right;
 }
+
+#insta:hover {background-image: url("images/PinkInsta.png") no-repeat;}
+#twitter:hover {background-image: url("images/PinkTwitter.png") no-repeat;}
 
 #trailer-container
 {
