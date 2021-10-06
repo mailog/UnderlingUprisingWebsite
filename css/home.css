@@ -212,6 +212,13 @@ html,body
 	position:relative;
 }
 
+.character button
+{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
+
 #underlings-container .character
 {
     width:24%;
