@@ -196,7 +196,7 @@ html,body
 	height: auto;
 	padding: 5% 1%;	
 	position:relative;
-	margin: 5% auto;
+	margin: 10% auto;
 }
 
 #characterbg
@@ -212,7 +212,7 @@ html,body
 	    width: 60%;
     height: auto;
     position: absolute;
-    top: -40%;
+    top: -30%;
     left: 20%;
     z-index: 2;
 }
@@ -282,7 +282,7 @@ html,body
 #character-buttons
 {  
     width: 60%;
-    height: 30%;
+    height: 45%;
     margin: 0 auto;
     margin-top: -5%;
 }
