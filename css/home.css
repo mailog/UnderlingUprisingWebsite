@@ -217,7 +217,7 @@ html,body
 
 .characters
 {    width: 60%;
-    height: auto;
+    height: 100%;
     position: absolute;
     top: -100%;
     left: 20%;
@@ -231,22 +231,32 @@ html,body
 
 #labrose
 {
-	
+    position: absolute;
+    left: 11%;
+    top: 88%;
 }
 
 #labangel
 {
-	
+    position: absolute;
+    left: 28.5%;
+    top: 88%;
 }
 
 #labdeckster
 {
 	
+    position: absolute;
+    left: 46%;
+    top: 88%;
 }
 
 #labboogie
 {
 	
+    position: absolute;
+    left: 63%;
+    top: 88%;
 }
 
 .character button
