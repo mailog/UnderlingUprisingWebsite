@@ -211,8 +211,8 @@ html,body
 #card-container
 {    position: relative;
     background-color: #000000;
-    width: 30%;
-    height: 35%;
+       width: 32vw;
+    height: 24vw;
     margin: 0 auto;
     padding: 2%;
     color: #049304;
