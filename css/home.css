@@ -209,21 +209,20 @@ html,body
 }
 
 #card-container
-{
-	position:relative;
-	background-color:#008b8b;
-	width: 60%;
-	height: 35%;
-	margin: 0 auto;
-	padding: 2%;
-	border-style: solid;
-	border-size: 5px;
-	border-color: #F2E3C4;
+{    position: relative;
+    background-color: #000000;
+    width: 60%;
+    height: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    color: #38CD2C;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #F2E3C4;
 }
 
 .character-card
 {
-	color:#FFFFFF;
 	display:none;
 }
 
