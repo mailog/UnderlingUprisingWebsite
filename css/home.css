@@ -179,6 +179,12 @@ html,body
     margin: 0 auto;
 }
 
+.selectarrow
+{
+	width:100%;
+	height:auto;
+}
+
 .character-container
 {
 	padding: 5% 1%;	
