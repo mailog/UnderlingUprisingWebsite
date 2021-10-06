@@ -239,6 +239,13 @@ html,body
 	padding: 1%;
 }
 
+.computerscreen
+{
+	width: 24vw;
+	height: auto;
+	margin: 0 auto;
+}
+
 .computercharacter
 {
 	width: 50%;
