@@ -184,10 +184,11 @@ html,body
 
 .selectarrow
 {
-	width:100%;
-	height:auto;
-	display:none;
-	margin:0 auto;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    position: absolute;
+    top: 25%;
 }
 
 .character-container
