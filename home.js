@@ -36,7 +36,7 @@ window.onload = function()
 		var currScroll = window.scrollY;
 		for(var i = 0; i < backgrounds.length; i++)
 		{
-			updateBG1(currScroll, backgrounds1[i]);
+			updateBG1(currScroll, backgrounds[i]);
 		}
 	}
 	
