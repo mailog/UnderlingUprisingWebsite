@@ -42,7 +42,37 @@ html,body
 
 .background-1
 {
-	width: 100%;
+	width: 50%;
+	height: auto;
+}
+
+.background-2
+{
+	width: 50%;
+	height: auto;
+}
+
+.background-3
+{
+	width: 50%;
+	height: auto;
+}
+
+.background-4
+{
+	width: 50%;
+	height: auto;
+}
+
+.background-5
+{
+	width: 50%;
+	height: auto;
+}
+
+.background-6
+{
+	width: 50%;
 	height: auto;
 }
 
