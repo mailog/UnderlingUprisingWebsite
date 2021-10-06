@@ -5,6 +5,9 @@ var rosearrow, angelarrow, decksterarrow, boogiearrow;
 var selectedOpacity = 1;
 var unselectedOpacity = 1;
 
+var beginBG1Fade = 0.2, endBG1Fade = 0.25;
+
+
 window.onload = function()
 {
 	rosecard = document.getElementById('rosecard');
@@ -43,10 +46,18 @@ window.onload = function()
 	function updateBG1(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
-		if (currOffset < docHeight / 4)
+		var endHeight = docHeight/4;
+		if (currOffset < endHeight)
 		{
 			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
+			currProgress = currOffset/docHeight;
+			CheckBG1Fade(background, currProgress);
         	}
+	}
+	
+	function CheckBG1Fade(background, currProgress)
+	{
+		background.style.opacity = lerp(1, 0, (currProgress-beginBG1Fade)/(endBG1Fade-beginBG1Fade));
 	}
   
 	document.addEventListener("scroll", updateScroll, false);
