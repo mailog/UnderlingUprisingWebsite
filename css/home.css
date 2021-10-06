@@ -216,12 +216,11 @@ html,body
 }
 
 .characters
-{
-    width: 40%;
+{    width: 60%;
     height: auto;
     position: absolute;
-    top: -250%;
-    left: 30%;
+    top: -100%;
+    left: 20%;
 }
 
 .character
