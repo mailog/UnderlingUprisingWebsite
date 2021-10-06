@@ -229,6 +229,15 @@ html,body
     border-color: #F2E3C4;
 }
 
+.computercharacter
+{
+	width: 25%;
+	height: auto;
+	position:absolute;
+	top:3%;
+	right:3%;
+}
+
 .card-name
 {
 	font-size: 2vw;
