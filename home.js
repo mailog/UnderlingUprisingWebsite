@@ -17,10 +17,10 @@ window.onload = function()
 	decksterselect = document.getElementById('decksterselect');
 	boogieselect = document.getElementById('boogieselect');
 	
-	rosearrow = document.getElementById('rosearrow');
+	/*rosearrow = document.getElementById('rosearrow');
 	angelarrow = document.getElementById('angelarrow');
 	decksterarrow = document.getElementById('decksterarrow');
-	boogiearrow = document.getElementById('boogiearrow');
+	boogiearrow = document.getElementById('boogiearrow');*/
 	
 	showrose();
 	var background = [];
@@ -71,10 +71,10 @@ function showrose()
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = unselectedOpacity;
 	
-	rosearrow.style.display = "block";
+	/*rosearrow.style.display = "block";
 	angelarrow.style.display = "none";
 	decksterarrow.style.display = "none";
-	boogiearrow.style.display = "none";
+	boogiearrow.style.display = "none";/*
 }
 function showangel()
 {
@@ -93,10 +93,10 @@ function showangel()
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = unselectedOpacity;
 	
-	rosearrow.style.display = "none";
+	/*rosearrow.style.display = "none";
 	angelarrow.style.display = "block";
 	decksterarrow.style.display = "none";
-	boogiearrow.style.display = "none";
+	boogiearrow.style.display = "none";*/
 }
 function showdeckster()
 {
@@ -115,10 +115,10 @@ function showdeckster()
 	decksterselect.style.opacity = selectedOpacity;
 	boogieselect.style.opacity = unselectedOpacity;
 	
-	rosearrow.style.display = "none";
+	/*rosearrow.style.display = "none";
 	angelarrow.style.display = "none";
 	decksterarrow.style.display = "block";
-	boogiearrow.style.display = "none";
+	boogiearrow.style.display = "none";*/
 }
 
 function showboogie()
@@ -138,8 +138,8 @@ function showboogie()
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = selectedOpacity;
 	
-	rosearrow.style.display = "none";
+	/*rosearrow.style.display = "none";
 	angelarrow.style.display = "none";
 	decksterarrow.style.display = "none";
-	boogiearrow.style.display = "block";
+	boogiearrow.style.display = "block";*/
 }
