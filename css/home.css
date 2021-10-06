@@ -6,7 +6,7 @@
 a
 {
 	text-decoration: none;
-	color:#0F182A;
+	color:#000000;
 }
 
 html,body
@@ -16,7 +16,7 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     font-family: KGInimitableOriginal;
-	background-color: #000000;
+	background-color: #0F182A;
 	overflow:visible;
 }
 
