@@ -209,6 +209,7 @@ html,body
 .character
 {
     display: inline-block;
+	position:relative;
 }
 
 #underlings-container .character
