@@ -41,9 +41,9 @@ html,body
 }
 
 .background-1
-{
-	width: 100%;
-	height: auto;
+{width: 100%;
+    height: auto;
+    top: 75%;
 }
 
 .background-2
