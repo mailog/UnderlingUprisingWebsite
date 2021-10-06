@@ -45,23 +45,29 @@
 
 <div class = "character-container" id = "underlings-container">
 	<img id = "characterbg" src = "images/labbg.png"></img>
+	<img id = "characterfg" src = "images/labfg.png"></img>
 	<div class = "characters">
 		<div class = "character" id = "labrose">
-			<button type = "button" onclick="showrose()"><img type class = "characterAnim" id="roseselect" src="images/labrose.gif"></button>
+			<img type class = "characterAnim" id="roseselect" src="images/labrose.gif">
 		</div>
 		<div class="character" id = "labangel">
-			<button type = "button" onclick="showangel()"><img class="characterAnim" id = "angelselect" src="images/labangel.gif"></button>
+			<img class="characterAnim" id = "angelselect" src="images/labangel.gif">
 		</div>
 
 		<div class="character" id = "labdeckster">
-			<button type = "button" onclick="showdeckster()"><img class="characterAnim" id="decksterselect" src="images/labdeckster.gif"></button>
+			<img class="characterAnim" id="decksterselect" src="images/labdeckster.gif">
 		</div>
 
 		<div class="character" id = "labboogie">
-			<button type = "button" onclick="showboogie()"><img class="characterAnim" id="boogieselect" src="images/labboogie.gif"></button>
+			<img class="characterAnim" id="boogieselect" src="images/labboogie.gif">
 		</div>
 	</div>
-	<img id = "characterfg" src = "images/labfg.png"></img>
+	<div class = "character-buttons">
+		<button type = "button" class = "character-button" onclick="showrose()"></button>
+		<button type = "button" class = "character-button" onclick="showangel()"></button>
+		<button type = "button" class = "character-button" onclick="showdeckster()"></button>
+		<button type = "button" class = "character-button" onclick="showboogie()"></button>
+	</div>
 </div>
 
 <div id = "card-container">
