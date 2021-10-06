@@ -233,11 +233,9 @@ html,body
 
 .computercharacter
 {
-	width: 25%;
+	width: 50%;
 	height: auto;
 	position:absolute;
-	top:3%;
-	right:3%;
 }
 
 .card-name
