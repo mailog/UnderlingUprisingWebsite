@@ -193,20 +193,22 @@ html,body
 	width: 100%;
 	height: auto;
 	padding: 5% 1%;	
-	background-image: url("../images/labbg.png");
+	position:relative;
+	margin: 0 auto;
+}
+
+#characterbg
+{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top:0;
+	left: 0;
 }
 
 .character
 {
     display: inline-block;
-}
-
-#underlings-container
-{
-	position:relative;
-    text-align:center;
-    width: 80%;
-	margin: 0 auto;
 }
 
 #underlings-container .character
