@@ -280,13 +280,19 @@ html,body
 }
 
 #character-buttons
-{
-	
+{  
+    width: 60%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: -5%;
 }
 
 .character-button
 {
-	
+    width: 24%;
+    height: 100%;
+    position: relative;
+	display:inline-block;
 }
 
 #card-container
