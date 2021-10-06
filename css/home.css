@@ -228,6 +228,7 @@ html,body
     border-style: solid;
     border-width: 20px;
     border-color: #F2E3C4;
+	background-image: url("../images/labbg.png");
 }
 
 .computercharacter
