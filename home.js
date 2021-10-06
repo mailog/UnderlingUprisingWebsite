@@ -3,7 +3,7 @@ var roseselect, angelselect, decksterselect, boogieselect;
 var rosearrow, angelarrow, decksterarrow, boogiearrow;
 
 var selectedOpacity = 1;
-var unselectedOpacity = 1;
+var unselectedOpacity = 0.8;
 
 window.onload = function()
 {
