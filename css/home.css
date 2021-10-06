@@ -98,6 +98,7 @@ html,body
 {
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 100%;
 }
 
 #summary-container
