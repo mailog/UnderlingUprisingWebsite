@@ -47,9 +47,9 @@ html,body
 }
 
 .background-2
-{
-	width: 50%;
-	height: auto;
+{width: 50%;
+    height: auto;
+    top: 20%;
 }
 
 .background-3
