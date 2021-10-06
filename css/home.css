@@ -207,21 +207,21 @@ html,body
 
 #characterfg 
 {    
-	width: 60%;
+	    width: 60%;
     height: auto;
     position: absolute;
-    top: -50%;
+    top: -25%;
     left: 20%;
     z-index: 2;
 }
 
 .characters
 {
-	width: 60%;
+    width: 40%;
     height: auto;
     position: absolute;
-    top: 10%;
-    left: 20%;
+    top: -250%;
+    left: 30%;
 }
 
 .character
