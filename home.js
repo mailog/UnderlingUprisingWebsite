@@ -28,25 +28,39 @@ window.onload = function()
 	var docHeight = document.body.scrollHeight;
 
 	//Init Background Data
-	var backgrounds = document.querySelectorAll(".background");
+	var backgrounds1 = document.querySelectorAll(".background1");
+	var backgrounds2 = document.querySelectorAll(".background2");
 
 
 	function updateScroll()
 	{	
 		var currScroll = window.scrollY;
-		for(var i = 0; i < backgrounds.length; i++)
+		for(var i = 0; i < backgrounds1.length; i++)
 		{
-			updateBG(currScroll, backgrounds[i]);
+			updateBG1(currScroll, backgrounds1[i]);
+		}
+		for(var i = 0; i < backgrounds2.length; i++)
+		{
+			updateBG2(currScroll, backgrounds2[i]);
 		}
 	}
 	
-	function updateBG(currScroll, background)
+	function updateBG1(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
 		if (currOffset < docHeight / 4)
 		{
 			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
-        }
+        	}
+	}
+	
+	function updateBG2(currScroll, background)
+	{
+		var currOffset = currScroll * background.dataset.scrollspeed;
+		if(currOffset < docHeight)
+		{
+			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
+		}
 	}
   
 	document.addEventListener("scroll", updateScroll, false);
