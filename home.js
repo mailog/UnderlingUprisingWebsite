@@ -1,11 +1,6 @@
-var rosecard;
-var angelcard;
-var deckstercard;
-var boogiecard;
-var roseselect;
-var angelselect;
-var decksterselect;
-var boogieselect;
+var rosecard, angelcard, deckstercard, boogiecard;
+var roseselect, angelselect, decksterselect, boogieselect;
+var rosearrow, angelarrow, decksterarrow, boogiearrow;
 
 var selectedOpacity = 1;
 var unselectedOpacity = 0.5;
@@ -21,6 +16,11 @@ window.onload = function()
 	angelselect = document.getElementById('angelselect');
 	decksterselect = document.getElementById('decksterselect');
 	boogieselect = document.getElementById('boogieselect');
+	
+	rosearrow = document.getElementById('rosearrow');
+	angelarrow = document.getElementById('angelarrow');
+	decksterarrow = document.getElementById('decksterarrow');
+	boogiearrow = document.getElementById('boogiearrow');
 	
 	showrose();
 	var background = [];
@@ -70,6 +70,11 @@ function showrose()
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = unselectedOpacity;
+	
+	rosearrow.style.display = "block";
+	angelarrow.style.display = "none";
+	decksterarrow.style.display = "none";
+	boogiearrow.style.display = "none";
 }
 function showangel()
 {
@@ -87,6 +92,11 @@ function showangel()
 	angelselect.style.opacity = selectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = unselectedOpacity;
+	
+	rosearrow.style.display = "none";
+	angelarrow.style.display = "block";
+	decksterarrow.style.display = "none";
+	boogiearrow.style.display = "none";
 }
 function showdeckster()
 {
@@ -104,6 +114,11 @@ function showdeckster()
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = selectedOpacity;
 	boogieselect.style.opacity = unselectedOpacity;
+	
+	rosearrow.style.display = "none";
+	angelarrow.style.display = "none";
+	decksterarrow.style.display = "block";
+	boogiearrow.style.display = "none";
 }
 
 function showboogie()
@@ -122,4 +137,9 @@ function showboogie()
 	angelselect.style.opacity = unselectedOpacity;
 	decksterselect.style.opacity = unselectedOpacity;
 	boogieselect.style.opacity = selectedOpacity;
+	
+	rosearrow.style.display = "none";
+	angelarrow.style.display = "none";
+	decksterarrow.style.display = "none";
+	boogiearrow.style.display = "block";
 }
