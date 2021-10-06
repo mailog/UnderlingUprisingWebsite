@@ -229,6 +229,16 @@ html,body
     border-color: #F2E3C4;
 }
 
+.card-name
+{
+	font-size: 3vw;
+}
+
+.description
+{
+	font-size: 2vw;
+}
+
 .character-card
 {
 	display:none;
