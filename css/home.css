@@ -190,6 +190,8 @@ html,body
 
 .character-container
 {
+	width: 100%;
+	height: auto;
 	padding: 5% 1%;	
 }
 
@@ -228,7 +230,6 @@ html,body
     border-style: solid;
     border-width: 20px;
     border-color: #F2E3C4;
-	background-image: url("../images/labbg.png");
 }
 
 .computercharacter
