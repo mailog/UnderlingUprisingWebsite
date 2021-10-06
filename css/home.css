@@ -28,6 +28,7 @@ html,body
 	margin: 5% 25%;
 	position:relative;
 }
+
 .background
 {
 	position:absolute;
@@ -38,6 +39,12 @@ html,body
 	margin: 0 auto;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+}
+
+.background-1
+{width: 100%;
+    height: auto;
+    top: 0%;
 }
 
 .background-1
