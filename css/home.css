@@ -241,9 +241,12 @@ html,body
 
 #computerscreen
 {
-	width: 24vw;
-	height: auto;
-	margin: 0 auto;
+	width: 200%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: -15%;
+    left: -50%;
 }
 
 .computercharacter
@@ -251,8 +254,8 @@ html,body
 	width: 50%;
 	height: auto;
 	position:absolute;
-	top:3%;
-	right:3%;
+	top:0;
+	right:0;
 }
 
 .card-name
@@ -276,6 +279,7 @@ html,body
 	width: 60%;
 	display: inline-block;
 	vertical-align:top;
+    position: relative;
 }
 
 .stats
