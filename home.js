@@ -65,6 +65,11 @@ window.onload = function()
 	updateScroll();
 }
 
+function lerp(x, y, a)
+{
+	return x * (1 - a) + y * a;
+}
+
 function showrose()
 {
 	rosecard.style.display = "block";
