@@ -222,7 +222,6 @@ html,body
        width: 24vw;
     height: 18vw;
     margin: 0 auto;
-    padding: 2%;
     color: #049304;
     border-style: solid;
     border-width: 20px;
@@ -231,12 +230,12 @@ html,body
 
 .card-name
 {
-	font-size: 3vw;
+	font-size: 1.5vw;
 }
 
 .description
 {
-	font-size: 2vw;
+	font-size: 1vw;
 }
 
 .character-card
@@ -254,8 +253,8 @@ html,body
 .stats
 {    
 	position:absolute;
-	bottom:2%;
-	right:2%;
+	bottom:3%;
+	right:3%;
 	width: 30%;
 	height: auto;
 } 
