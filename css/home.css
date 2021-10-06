@@ -211,11 +211,14 @@ html,body
 #card-container
 {
 	position:relative;
-	background-color:#000000;
+	background-color:#008b8b;
 	width: 60%;
 	height: 35%;
 	margin: 0 auto;
 	padding: 2%;
+	border-style: solid;
+	border-size: 5px;
+	border-color: #F2E3C4;
 }
 
 .character-card
