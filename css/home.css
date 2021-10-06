@@ -6,7 +6,7 @@
 a
 {
 	text-decoration: none;
-	color:#FFFFFF;
+	color:#0F182A;
 }
 
 html,body
@@ -198,22 +198,21 @@ html,body
 }
 
 #characterbg
-{
-	width: 100%;
-	height: auto;
-	position: absolute;
-	top:0;
-	left: 0;
+{width: 60%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 20%;
 }
 
 #characterfg 
-{
-	width: 100%;
-	height: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
+{    
+	width: 60%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 2;
 }
 
 .character
