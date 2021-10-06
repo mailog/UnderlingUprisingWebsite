@@ -74,7 +74,7 @@ function showrose()
 	/*rosearrow.style.display = "block";
 	angelarrow.style.display = "none";
 	decksterarrow.style.display = "none";
-	boogiearrow.style.display = "none";/*
+	boogiearrow.style.display = "none";*/
 }
 function showangel()
 {
