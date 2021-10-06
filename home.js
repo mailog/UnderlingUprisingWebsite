@@ -5,7 +5,7 @@ var rosearrow, angelarrow, decksterarrow, boogiearrow;
 var selectedOpacity = 1;
 var unselectedOpacity = 1;
 
-var beginBG1Fade = 0.2, endBG1Fade = 0.25;
+var beginBG1Fade = 0.15, endBG1Fade = 0.25;
 
 
 window.onload = function()
