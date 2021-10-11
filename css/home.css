@@ -48,7 +48,28 @@ html,body
 	top: 0%;
 }
 
+.background-1
+{
+	width: 100%;
+	height: auto;
+	top: 75%;
+}
+
 .background-2
+{
+	width: 100%;
+	height: auto;
+	top: 75%;
+}
+
+.background-3
+{
+	width: 100%;
+	height: auto;
+	top: 75%;
+}
+
+.background-4
 {
 	width: 100%;
 	height: auto;
