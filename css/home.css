@@ -232,6 +232,7 @@ html,body
     margin-left: 25%;
     position: absolute;
     top: 25%;
+	z-index:3;
 }
 
 .character-container
