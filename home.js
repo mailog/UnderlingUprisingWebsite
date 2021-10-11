@@ -6,7 +6,8 @@ var selectedOpacity = 1;
 var unselectedOpacity = 1;
 
 var beginBG1Fade = 0.05, endBG1Fade = 0.125;
-var stopParallaxPerc = 0.1;
+var stopParallaxPerc1 = 0.1;
+var stopParallaxPerc2 = 0.15;
 
 
 window.onload = function()
@@ -27,22 +28,29 @@ window.onload = function()
 	boogiearrow = document.getElementById('boogiearrow');
 	
 	showrose();
-	var background = [];
-
+	
 	var docHeight = document.body.scrollHeight;
 
 	//Init Background Data
-	var backgrounds = document.querySelectorAll(".background");
+	var backgrounds1 = document.querySelectorAll(".background1");
+	var backgrounds2 = document.querySelectorAll(".background2");
 
 
 	function updateScroll()
 	{	
 		var currScroll = window.scrollY;
-		if(currScroll < docHeight * stopParallaxPerc)
+		if(currScroll < docHeight * stopParallaxPerc1)
 		{
 			for(var i = 0; i < backgrounds.length; i++)
 			{
-				updateBG1(currScroll, backgrounds[i]);
+				updateBG1(currScroll, backgrounds1[i]);
+			}
+		}
+		if(currScroll < docHeight * stopParallaxPerc2)
+		{
+			for(var i = 0; i < backgrounds.length; i++)
+			{
+				updateBG2(currScroll, backgrounds2[i]);
 			}
 		}
 	}
@@ -50,14 +58,18 @@ window.onload = function()
 	function updateBG1(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
-		//var endHeight = docHeight/10;
-		//if (currOffset < endHeight)
-		//{
-			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
-			currProgress = currOffset/docHeight;
-			//CheckBG1Fade(background, currProgress);
-        	//}
+		background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
+		currProgress = currOffset/docHeight;
 	}
+	
+	function updateBG2(currScroll, background)
+	{
+		var currOffset = currScroll * background.dataset.scrollspeed;
+		background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
+		currProgress = currOffset/docHeight;
+		CheckBG1Fade(background, currProgress);
+	}
+	
 	
 	function CheckBG1Fade(background, currProgress)
 	{
