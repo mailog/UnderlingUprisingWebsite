@@ -51,7 +51,7 @@ window.onload = function()
 		{
 			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
 			currProgress = currOffset/docHeight;
-			CheckBG1Fade(background, currProgress);
+			//CheckBG1Fade(background, currProgress);
         	}
 	}
 	
