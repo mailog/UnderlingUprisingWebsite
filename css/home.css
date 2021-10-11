@@ -198,12 +198,12 @@ html,body
 
 #quotes-container
 {
-	position:relative;
-	width:80%;
-	margin:0 auto;
+	position: relative;
+	width: 80%;
+	margin: 5% auto;
 	text-align: center;
-	color:#FFFFFF;
-	font-size:1.5vw;
+	color: #FFFFFF;
+	font-size: 2vw;
 }
 
 .video-container
