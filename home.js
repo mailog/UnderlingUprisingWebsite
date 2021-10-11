@@ -17,10 +17,10 @@ window.onload = function()
 	deckstercard = document.getElementById('deckstercard');
 	boogiecard = document.getElementById('boogiecard');
 	
-	roseselect = document.getElementById('roseselect');
+	/*roseselect = document.getElementById('roseselect');
 	angelselect = document.getElementById('angelselect');
 	decksterselect = document.getElementById('decksterselect');
-	boogieselect = document.getElementById('boogieselect');
+	boogieselect = document.getElementById('boogieselect');*/
 	
 	rosearrow = document.getElementById('rosearrow');
 	angelarrow = document.getElementById('angelarrow');
@@ -93,10 +93,10 @@ function showrose()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
 	
-	roseselect.src = "images/labrose.gif";
+	/*roseselect.src = "images/labrose.gif";
 	angelselect.src = "images/labangel.png";
 	decksterselect.src = "images/labdeckster.png";
-	boogieselect.src = "images/labboogie.png";
+	boogieselect.src = "images/labboogie.png";*/
 	
 	roseselect.style.opacity = selectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
@@ -115,10 +115,10 @@ function showangel()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "none";
 	
-	roseselect.src = "images/labrose.png";
+	/*roseselect.src = "images/labrose.png";
 	angelselect.src = "images/labangel.gif";
 	decksterselect.src = "images/labdeckster.png";
-	boogieselect.src = "images/labboogie.png";
+	boogieselect.src = "images/labboogie.png";*/
 	
 	roseselect.style.opacity = unselectedOpacity;
 	angelselect.style.opacity = selectedOpacity;
@@ -137,10 +137,10 @@ function showdeckster()
 	deckstercard.style.display = "block";
 	boogiecard.style.display = "none";
 	
-	roseselect.src = "images/labrose.png";
+	/*roseselect.src = "images/labrose.png";
 	angelselect.src = "images/labangel.png";
 	decksterselect.src = "images/labdeckster.gif";
-	boogieselect.src = "images/labboogie.png";
+	boogieselect.src = "images/labboogie.png";*/
 	
 	roseselect.style.opacity = unselectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
@@ -160,10 +160,10 @@ function showboogie()
 	deckstercard.style.display = "none";
 	boogiecard.style.display = "block";
 	
-	roseselect.src = "images/labrose.png";
+	/*roseselect.src = "images/labrose.png";
 	angelselect.src = "images/labangel.png";
 	decksterselect.src = "images/labdeckster.png";
-	boogieselect.src = "images/labboogie.gif";
+	boogieselect.src = "images/labboogie.gif";*/
 	
 	roseselect.style.opacity = unselectedOpacity;
 	angelselect.style.opacity = unselectedOpacity;
