@@ -6,6 +6,7 @@ var selectedOpacity = 1;
 var unselectedOpacity = 1;
 
 var beginBG1Fade = 0.05, endBG1Fade = 0.125;
+var stopParallaxPerc = 0.1;
 
 
 window.onload = function()
@@ -37,22 +38,25 @@ window.onload = function()
 	function updateScroll()
 	{	
 		var currScroll = window.scrollY;
-		for(var i = 0; i < backgrounds.length; i++)
+		if(currScroll < docHeight * stopParallaxPerc)
 		{
-			updateBG1(currScroll, backgrounds[i]);
+			for(var i = 0; i < backgrounds.length; i++)
+			{
+				updateBG1(currScroll, backgrounds[i]);
+			}
 		}
 	}
 	
 	function updateBG1(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
-		var endHeight = docHeight/10;
-		if (currOffset < endHeight)
-		{
+		//var endHeight = docHeight/10;
+		//if (currOffset < endHeight)
+		//{
 			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
 			currProgress = currOffset/docHeight;
 			//CheckBG1Fade(background, currProgress);
-        	}
+        	//}
 	}
 	
 	function CheckBG1Fade(background, currProgress)
