@@ -419,13 +419,15 @@ button {
 
 #screenshotcontainer
 {
-	
+    margin: 15% 10%;
 }
 
 .screenshot
 {
-	width: 50%;
-	height: auto;
+    width: 45%;
+    margin: 1% 2.25%;
+    height: auto;
+    display: inline-block;
 }
 
 #footer-container
