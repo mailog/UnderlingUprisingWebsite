@@ -7,7 +7,7 @@ var unselectedOpacity = 1;
 
 var beginBG1Fade = 0.05, endBG1Fade = 0.125;
 var stopParallaxPerc1 = 0.1;
-var stopParallaxPerc2 = 0.15;
+var stopParallaxPerc2 = 0.25;
 
 
 window.onload = function()
