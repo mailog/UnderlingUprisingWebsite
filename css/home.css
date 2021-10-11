@@ -381,7 +381,7 @@ html,body
 
 .description
 {
-	font-size: 1.25vw;
+	font-size: 1vw;
 	transform: skewX(5deg);
 	margin-left: 15%;
 }
@@ -393,7 +393,7 @@ html,body
 
 .text-container
 {
-	width: 60%;
+	width: 50%;
 	display: inline-block;
 	vertical-align:top;
     position: relative;
