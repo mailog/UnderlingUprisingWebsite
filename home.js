@@ -46,7 +46,7 @@ window.onload = function()
 	function updateBG1(currScroll, background)
 	{
 		var currOffset = currScroll * background.dataset.scrollspeed;
-		var endHeight = docHeight/8;
+		var endHeight = docHeight/10;
 		if (currOffset < endHeight)
 		{
 			background.style.transform = "translate3d(0, " + currOffset + "px, 0)";
