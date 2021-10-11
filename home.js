@@ -41,14 +41,14 @@ window.onload = function()
 		var currScroll = window.scrollY;
 		if(currScroll < docHeight * stopParallaxPerc1)
 		{
-			for(var i = 0; i < backgrounds.length; i++)
+			for(var i = 0; i < backgrounds1.length; i++)
 			{
 				updateBG1(currScroll, backgrounds1[i]);
 			}
 		}
 		if(currScroll < docHeight * stopParallaxPerc2)
 		{
-			for(var i = 0; i < backgrounds.length; i++)
+			for(var i = 0; i < backgrounds2.length; i++)
 			{
 				updateBG2(currScroll, backgrounds2[i]);
 			}
