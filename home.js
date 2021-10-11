@@ -17,10 +17,10 @@ window.onload = function()
 	deckstercard = document.getElementById('deckstercard');
 	boogiecard = document.getElementById('boogiecard');
 	
-	/*roseselect = document.getElementById('roseselect');
+	roseselect = document.getElementById('roseselect');
 	angelselect = document.getElementById('angelselect');
 	decksterselect = document.getElementById('decksterselect');
-	boogieselect = document.getElementById('boogieselect');*/
+	boogieselect = document.getElementById('boogieselect');
 	
 	rosearrow = document.getElementById('rosearrow');
 	angelarrow = document.getElementById('angelarrow');
