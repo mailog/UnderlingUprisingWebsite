@@ -2,7 +2,14 @@
   
 #kickstarter
 {	
-	width: 100%;
+	font-size:5vw;
 }
-  
+	
+#toolbar button {
+	width:100%;
+	height: auto;
+	margin: 0;
+	display:inline-block;
+}
+	
 }
