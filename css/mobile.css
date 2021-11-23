@@ -98,4 +98,18 @@
     display: block;
 }
 
+#card-container
+{    
+       width: 72vw;
+    height: 54vw;
+ }
+
+#computerscreen
+{
+	width: 200%;
+    position: absolute;
+    top: -15%;
+    left: -50%;
+}
+	
 }
