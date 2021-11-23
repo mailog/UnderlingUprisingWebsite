@@ -14,7 +14,7 @@
 
 #topbggradient
 {
-	height: 90%;
+	height: 100vw;
 }
 
 .background-1
@@ -26,27 +26,27 @@
 {
 	width: 100%;
 	height: auto;
-	top: 35%;
+	top: 35vw;
 }
 
 .background-3
 {
 	width: 100%;
 	height: auto;
-	top: 55%;
+	top: 55vw;
 }
 
 .background-4
 {
 	width: 100%;
 	height: auto;
-	top: 70%;
+	top: 65vw;
 }
 
 .background-5
 {width: 50%;
     height: auto;
-    top: 8%;
+    top: 8vw;
 }
 	
 #trailer-container
