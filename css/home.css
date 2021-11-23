@@ -159,7 +159,7 @@ html,body
 	margin: 0 auto;
 	text-align:center;
 	margin-top:1%;
-	font-size:2vw;
+	font-size:3vw;
 	color:#000000;
 }
 
@@ -438,17 +438,3 @@ button {
 	text-align:center;
 	color:#FFFFFF;
 }
-
-@media (max-width: 768px) and (orientation: portrait){
-  
-.title
-{
-	z-index: 1;	
-	width: 75%;
-	height: auto;
-	margin: 5% 12.5%;
-	position:relative;
-}
-  
-}
-	
