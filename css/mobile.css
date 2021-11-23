@@ -100,8 +100,8 @@
 
 #card-container
 {    
-       width: 72vw;
-    height: 54vw;
+       width: 50vw;
+    height: 50vw;
  }
 
 #computerscreen
@@ -110,6 +110,25 @@
     position: absolute;
     top: 0;
     left: -50%;
+}
+
+.card-name
+{
+	font-size: 3vw;
+	margin-top: 50%;
+}
+
+.description
+{
+	font-size: 2vw;
+	transform: skewX(5deg);
+	margin-left: 17%;
+}
+
+.computercharacter
+{
+	top: 7vw;
+	right: -3vw;
 }
 	
 }
