@@ -1,2 +1,12 @@
 @media (max-width: 768px) and (orientation: portrait){
+  
+.title
+{
+	z-index: 1;	
+	width: 75%;
+	height: auto;
+	margin: 5% 12.5%;
+	position:relative;
+}
+  
 }
