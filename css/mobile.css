@@ -1,4 +1,4 @@
-@media (max-width: 768px) and (orientation: portrait){
+@media (orientation: portrait){
   
 #kickstarter
 {	
@@ -11,5 +11,53 @@
 	margin: 0;
 	display:inline-block;
 }
+
+#topbggradient
+{
+	height: 90%;
+}
+
+.background-1
+{
+	top: 0%;
+}
+
+.background-2
+{
+	width: 100%;
+	height: auto;
+	top: 35%;
+}
+
+.background-3
+{
+	width: 100%;
+	height: auto;
+	top: 55%;
+}
+
+.background-4
+{
+	width: 100%;
+	height: auto;
+	top: 70%;
+}
+
+.background-5
+{width: 50%;
+    height: auto;
+    top: 8%;
+}
 	
+#trailer-container
+{
+	margin-top: 130%;
+}
+
+#quotes-container
+{
+	margin: 20% auto;
+}
+
+
 }
