@@ -24,29 +24,52 @@
 
 .background-2
 {
-	width: 100%;
-	height: auto;
 	top: 35vw;
 }
 
 .background-3
 {
-	width: 100%;
-	height: auto;
 	top: 55vw;
 }
 
 .background-4
 {
-	width: 100%;
-	height: auto;
 	top: 65vw;
 }
 
 .background-5
-{width: 50%;
-    height: auto;
+{
     top: 8vw;
+}
+
+.background-6
+{
+    top: 30vw;
+    left: -15vw;
+}
+
+.background-7
+{
+    top: 50vw;
+    left: 60vw;
+}
+
+.background-8
+{
+    top: 40vw;
+    left: -60vw;
+}
+
+.background-9
+{ 
+    top: 45vw;
+    left: 35vw;
+}
+
+.background-10
+{ 
+    top: 40vw;
+    left: 15vw;
 }
 	
 #trailer-container
