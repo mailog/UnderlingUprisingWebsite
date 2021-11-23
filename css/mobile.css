@@ -84,10 +84,34 @@
 	margin: 20% auto;
 	font-size:4vw;
 }
+.character-container
+{
+	width: 100%;
+	height: auto;
+	position:relative;
+	margin: 15% auto;
+}
+
+#characterbg
+{width: 60%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
 
 #characterfg 
 {    
     top: -20%;
+}
+
+.characters
+{    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 20%;
 }
 
 .screenshot
