@@ -10,7 +10,7 @@ var stopParallaxPerc1 = 0.1;
 var stopParallaxPerc2 = 0.25;
 
 
-window.onload = function()
+/*window.onload = function()
 {
 	rosecard = document.getElementById('rosecard');
 	angelcard = document.getElementById('angelcard');
@@ -79,7 +79,7 @@ window.onload = function()
 	document.addEventListener("scroll", updateScroll, false);
 	window.addEventListener("resize", updateScroll);
 	updateScroll();
-}
+}*/
 
 function lerp(x, y, a)
 {
