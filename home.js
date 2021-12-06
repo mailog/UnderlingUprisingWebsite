@@ -10,7 +10,7 @@ var stopParallaxPerc1 = 0.1;
 var stopParallaxPerc2 = 0.25;
 
 
-/*window.onload = function()
+window.onload = function()
 {
 	rosecard = document.getElementById('rosecard');
 	angelcard = document.getElementById('angelcard');
@@ -36,7 +36,7 @@ var stopParallaxPerc2 = 0.25;
 	var backgrounds2 = document.querySelectorAll(".background2");
 
 
-	function updateScroll()
+	/*function updateScroll()
 	{	
 		var currScroll = window.scrollY;
 		if(currScroll < docHeight * stopParallaxPerc1)
@@ -78,8 +78,8 @@ var stopParallaxPerc2 = 0.25;
   
 	document.addEventListener("scroll", updateScroll, false);
 	window.addEventListener("resize", updateScroll);
-	updateScroll();
-}*/
+	updateScroll();*/
+}
 
 function lerp(x, y, a)
 {
