@@ -167,6 +167,7 @@ html,body
 	margin: 0 auto;
 	font-size:3vw;
 	color:#000000;
+	top:0;
 }
 
 #kickstarter img
@@ -184,6 +185,7 @@ html,body
 	text-align:center;
 	font-size:3vw;
 	color:#000000;
+	top:0;
 }
 
 #demo img
