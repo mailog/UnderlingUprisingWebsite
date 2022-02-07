@@ -162,7 +162,6 @@ html,body
 	position:absolute;
 	z-index:1;
 	width:25%;
-	top:5%;
 	margin: 0 auto;
 	text-align:center;
 	margin: 0 auto;
@@ -170,7 +169,7 @@ html,body
 	color:#000000;
 }
 
-#kickstarter button
+#kickstarter img
 {
 	width: 100%;
 	height: auto;
@@ -181,14 +180,13 @@ html,body
 	position:absolute;
 	z-index:1;
 	width:25%;
-	top:5%;
 	margin-left: 75%;
 	text-align:center;
 	font-size:3vw;
 	color:#000000;
 }
 
-#demo button
+#demo img
 {
 	width: 100%;
 	height: auto;
