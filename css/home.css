@@ -559,9 +559,10 @@ button
 	margin: 0 auto;
 }
 
-#social
+#social img
 {
-
+	width: 2vw;
+	height: auto;
 }
 
 #insta {content: url("/images/OgInsta.png");}
