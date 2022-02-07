@@ -401,7 +401,7 @@ html,body
 
 .description
 {
-	font-size: 1.4vw;
+	font-size: 1.75vw;
 	transform: skewX(5deg);
 	margin-left: 15%;
 }
@@ -549,7 +549,7 @@ button
 	width: 60%;
 	margin: 0 auto;
 	color: white;
-	font-size: 1.4vw;
+	font-size: 1.75vw;
 }
 
 #ddlogo
