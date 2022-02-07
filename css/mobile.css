@@ -147,6 +147,13 @@
 	margin-top: 50%;
 }
 
+.sectionbanner
+{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}
+	
 .description
 {
 	font-size: 2.75vw;
