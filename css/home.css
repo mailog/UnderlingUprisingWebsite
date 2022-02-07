@@ -20,6 +20,12 @@ html,body
 	overflow:visible;
 }
 
+#banner
+{
+	width: 100%;
+	height: auto;
+}
+
 #topbggradient
 {
 	background-image: linear-gradient(#6ad0ff, #493b68);
@@ -39,7 +45,7 @@ html,body
 	position:relative;
 }
 
-.background1
+/*.background1
 {
 	position:absolute;
 	top:0;
@@ -138,7 +144,7 @@ html,body
     height: auto;
     top: 40%;
     left: 15%;
-}
+}*/
 
 
 /*
@@ -153,17 +159,30 @@ html,body
 
 #kickstarter
 {
-	position:relative;
+	position:absolute;
 	z-index:1;
-	width:75%;
+	width:25%;
+	top:5%;
 	margin: 0 auto;
 	text-align:center;
-	margin-top:1%;
+	margin: 0 auto;
 	font-size:3vw;
 	color:#000000;
 }
 
-#toolbar{
+#demo
+{
+	position:absolute;
+	z-index:1;
+	width:25%;
+	top:5%;
+	margin-left: 75%;
+	text-align:center;
+	font-size:3vw;
+	color:#000000;
+}
+
+/*#toolbar{
 	margin-top:-0.5%;
 	position:relative;
 	width: 10%;
@@ -187,20 +206,21 @@ html,body
 #twitter {content: url("/images/OgTwitter.png");}
 
 #insta:hover {content: url("/images/PinkInsta.png");}
-#twitter:hover {content: url("/images/PinkTwitter.png");}
+#twitter:hover {content: url("/images/PinkTwitter.png");}*/
 
 #trailer-container
 {
 	width: 75%;
 	margin: 0 auto;
-	margin-top: 75%;
+	margin-top: 5%;
 }
 
 #quotes-container
 {
 	position: relative;
-	width: 60%;
+	width: 75%;
 	margin: 5% auto;
+	margin-bottom: 5%;
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 2vw;
@@ -254,8 +274,8 @@ html,body
 #characterfg 
 {    
 	    width: 60%;
+	    position:absolute;
     height: auto;
-    position: absolute;
     top: -30%;
     left: 20%;
     z-index: 2;
@@ -265,8 +285,8 @@ html,body
 {    width: 60%;
     height: 100%;
     position: absolute;
-    top: -100%;
-    left: 20%;
+    top: -81%;
+    left: 21%;
 }
 
 .character
@@ -314,7 +334,7 @@ html,body
 
 #underlings-container .character
 {
-    width:24%;
+    width:20%;
 }
 
 .characterAnim
@@ -408,7 +428,8 @@ html,body
 	height: 25%;
 } 
 
-button {
+button 
+{
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -417,10 +438,19 @@ button {
     outline: none;
 }
 
+#features
+{
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-size:2vw;
+}
+
+
 #screenshotcontainer
 {
-    margin: 10% 10%;
-    margin-bottom: 5%;
+    margin: 3% 3%;
 }
 
 .screenshot
@@ -429,13 +459,112 @@ button {
     margin: 1% 2.25%;
     height: auto;
     display: inline-block;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.screenshot:hover {opacity:0.7;}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content
+{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+#caption
+{
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: : 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content, #caption
+{
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom{
+	from {transform:scale(0);}
+	to{transform:scale(1);}
 }
 
 #footer-container
 {
-	margin-top:5%;
+	margin-top:3%;
 	margin-bottom:2%;
 	width: 100%;
 	text-align:center;
 	color:#FFFFFF;
 }
+
+.close
+{
+	position: absolute;
+	top:15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover, .close:focurs{
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px)
+{
+	modal-content
+	{
+		width: 100%;
+	}
+}
+
+#dummydojo
+{
+	width: 60%;
+	margin: 0 auto;
+	color: white;
+}
+
+#ddlogo
+{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#social
+{
+
+}
+
+#insta {content: url("/images/OgInsta.png");}
+#twitter {content: url("/images/OgTwitter.png");}
+
+#insta:hover {content: url("/images/PinkInsta.png");}
+#twitter:hover {content: url("/images/PinkTwitter.png");}
