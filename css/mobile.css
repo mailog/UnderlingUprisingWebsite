@@ -83,6 +83,11 @@
 	margin: 5% auto;
 	font-size:3vw;
 }
+	
+#underlingsbanner
+{
+	top: -5%;
+}
 
 .character-container
 {
