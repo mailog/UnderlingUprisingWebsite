@@ -170,6 +170,12 @@ html,body
 	color:#000000;
 }
 
+#kickstarter button
+{
+	width: 100%;
+	height: auto;
+}
+
 #demo
 {
 	position:absolute;
@@ -182,6 +188,11 @@ html,body
 	color:#000000;
 }
 
+#demo button
+{
+	width: 100%;
+	height: auto;
+}
 /*#toolbar{
 	margin-top:-0.5%;
 	position:relative;
