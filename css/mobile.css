@@ -84,9 +84,21 @@
 	font-size:3vw;
 }
 	
+#storybanner
+{
+	width: 80%;
+}
+	
 #underlingsbanner
 {
+	width: 80%;
 	top: -5%;
+}
+	
+#featuresbanner
+{
+	width: 80%;
+	margin-left: 10%;
 }
 
 .character-container
