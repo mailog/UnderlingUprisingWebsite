@@ -263,11 +263,11 @@ html,body
 	margin: 15% auto;
 }
 
-.sectionbanner
+#storybanner
 {
 	width: 60%;
 	height: auto;
-	margin-left:20%;
+	margin: 0 auto;
 }
 
 #underlingsbanner
@@ -452,6 +452,13 @@ button
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+
+#featuresbanner
+{
+	width: 60%;
+	height: auto;
+	margin-left: 20%;
 }
 
 #features
