@@ -275,7 +275,7 @@ html,body
 	width: 60%;
 	height: auto;
 	position: absolute;
-	top: 5%;
+	top: -5%;
 	left: 20%;
 	z-index: 5;
 }
