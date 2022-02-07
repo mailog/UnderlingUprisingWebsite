@@ -263,6 +263,13 @@ html,body
 	margin: 15% auto;
 }
 
+.sectionbanner
+{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}
+
 #characterbg
 {width: 60%;
     height: auto;
