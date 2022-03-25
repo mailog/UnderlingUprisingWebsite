@@ -8,7 +8,12 @@
 	
 #kickstarter
 {	
-	font-size:5vw;
+	width: 40%;
+}
+	
+#demo
+{
+	width: 40%;
 }
 	
 #toolbar button {
