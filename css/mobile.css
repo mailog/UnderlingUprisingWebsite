@@ -1,5 +1,11 @@
 @media (orientation: portrait){
   
+#banner {
+    width: 300%;
+    height: auto;
+    margin-left: -100%;
+}
+	
 #kickstarter
 {	
 	font-size:5vw;
