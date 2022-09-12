@@ -25,6 +25,7 @@ html,body
 	width: auto;
 	height: 100%;
 	display: block;
+	position: relative;
 }
 
 #mobilebanner
