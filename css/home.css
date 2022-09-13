@@ -254,6 +254,12 @@ html,body
 	margin-top: 5%;
 }
 
+.storeicon
+{
+	width:50%;
+	height: auto;
+}	
+
 #quotes-container
 {
 	position: relative;
