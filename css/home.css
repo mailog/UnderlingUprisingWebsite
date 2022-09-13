@@ -255,10 +255,11 @@ html,body
 }
 
 .storeicon
-{
-	width: 49.5%;
+{    
+	width: 47.5%;
 	height: auto;
-	cursor:pointer;
+	cursor: pointer;
+	margin: 0 0.25%;
 }	
 
 #steam:hover {content: url("/images/steam-hover.png");}
