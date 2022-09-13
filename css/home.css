@@ -247,6 +247,13 @@ html,body
 	margin-top: 5%;
 }
 
+#storelinks
+{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
 #quotes-container
 {
 	position: relative;
