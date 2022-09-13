@@ -260,6 +260,9 @@ html,body
 	height: auto;
 }	
 
+#steam:hover {content: url("/images/steam-hover.png");}
+#itch:hover {content: url("/images/itch-hover.png");}
+
 #quotes-container
 {
 	position: relative;
